@@ -39,16 +39,17 @@ Ensure you have Python 3.11 installed on your system. The game uses the Turtle m
 
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/yourusername/india-states-guessing-game.git
+   git clone https://github.com/chirag-dudhrejia/indian_states_guessing_game.git
    
 2. Open the project folder:
    ```bash
-   cd india-states-guessing-game
+   cd indian_states_guessing_game
+   
 3. Create a virtual environment:
    ```bash
    python -m venv venv
 
-3. Activate the virtual environment:
+4. Activate the virtual environment:
     
    * On Windows:
      ```bash
@@ -58,13 +59,13 @@ Ensure you have Python 3.11 installed on your system. The game uses the Turtle m
      ```bash
      source venv/bin/activate
 
-4. Create a virtual environment:
+5. Install the required packages:
    ```bash
    pip install -r requirements.txt
    
 6. Run the game using:
    ```bash
-   python india_states_guessing_game.py
+   python indian_states_quiz.py
    
 This includes all the command prompt instructions to clone the repository, navigate to the project directory, and run the game script.
 
