@@ -27,7 +27,7 @@ turtle_write.speed(10)
 
 while len(remaining_states):
     name = screen.textinput(title=f"{len(guessed_states)}/{len(data)} correct states",
-                            prompt="Guess next state.").title()
+                            prompt="Guess Indian State.").title()
 
     if (name in remaining_states) and (name not in guessed_states):
         guessed_states.append(name)
